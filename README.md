@@ -2,11 +2,11 @@
 
 ## 📌 Project Overview
 
-This project analyzes Blinkit's grocery sales data using SQL and Python to uncover sales trends, evaluate outlet performance, and generate actionable business insights. The analysis includes data cleaning, exploratory data analysis (EDA), SQL-based business queries, and data visualizations.
+This project analyzes Blinkit's grocery sales data using **SQL** and **Python** to uncover sales trends, evaluate outlet performance, and generate actionable business insights. The project covers data cleaning, exploratory data analysis (EDA), SQL-based business queries, and data visualization.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Project Objectives
 
 - Analyze overall sales performance.
 - Identify the highest-performing product categories.
@@ -18,49 +18,50 @@ This project analyzes Blinkit's grocery sales data using SQL and Python to uncov
 
 ## 🛠️ Tech Stack
 
-- **SQL (MySQL)**
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Jupyter Notebook**
+- SQL (MySQL)
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
 
 ---
 
 ## 📂 Dataset
 
-- **Records:** 8,523
+The dataset contains **8,523 retail records** including:
+
 - Product Information
 - Outlet Details
 - Sales
-- Ratings
+- Customer Ratings
 - Item Visibility
 
 ---
 
 ## 📊 Project Workflow
 
-1. Data Cleaning
-2. Data Preprocessing
-3. Exploratory Data Analysis (EDA)
-4. SQL Analysis
-5. Business Insights
-6. Data Visualization
+- Data Cleaning
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- SQL Analysis
+- Business Insights
+- Data Visualization
 
 ---
 
 ## 📈 Key Business Insights
 
 - 🥇 Fruits and Vegetables generated the highest sales (**₹178,124.08**).
-- 🏪 Supermarket Type1 contributed the highest revenue (**₹787,549.89**).
-- 📦 Medium-sized outlets generated the maximum sales.
+- 🏪 Supermarket Type1 contributed the highest total revenue (**₹787,549.89**).
+- 📦 Medium-sized outlets generated the highest sales.
 - 📍 Tier 3 outlets achieved the highest revenue.
 - ⭐ Meat category received the highest average customer rating.
 - 📅 Outlets established in **2018** recorded the highest sales.
 
 ---
 
-# 📊 Visualizations
+# 📊 Project Visualizations
 
 ### Sales by Item Type
 
@@ -86,27 +87,15 @@ This project analyzes Blinkit's grocery sales data using SQL and Python to uncov
 
 ---
 
-### Rating Distribution
-
-![Rating Distribution](Images/rating_distribution.png)
-
----
-
 ### Sales vs Rating
 
 ![Sales vs Rating](Images/sales_vs_rating.png)
 
 ---
 
-### Average Rating by Item Type
-
-![Average Rating](Images/average_rating_by_item_type.png)
-
----
-
 ### Top 10 Selling Products
 
-![Top Products](Images/top_10_selling_products.png)
+![Top 10 Selling Products](Images/top_10_selling_products.png)
 
 ---
 
@@ -119,10 +108,16 @@ Blinkit-Sales-Analytics
 │   └── BlinkIT-Grocery-Data.csv
 │
 ├── Images
+│   ├── average_rating_by_item_type.png
+│   ├── item_visibility_distribution.png
+│   ├── rating_distribution.png
+│   ├── sales_by_establishment_year.png
 │   ├── sales_by_item_type.png
-│   ├── sales_by_outlet_type.png
 │   ├── sales_by_outlet_size.png
-│   └── ...
+│   ├── sales_by_outlet_type.png
+│   ├── sales_distribution.png
+│   ├── sales_vs_rating.png
+│   └── top_10_selling_products.png
 │
 ├── SQL
 │   ├── Advanced Business Analysis.sql
@@ -137,16 +132,22 @@ Blinkit-Sales-Analytics
 
 ---
 
-## 🚀 How to Run
+## ▶️ How to Run
 
-1. Clone the repository.
-2. Install the required libraries:
+1. Clone the repository
+
+```bash
+git clone https://github.com/samiksha020704/Blinkit-Sales-Analytics.git
+```
+
+2. Install the required libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Open `Blinkit_Analysis.ipynb` in Jupyter Notebook or JupyterLab.
+3. Open **Blinkit_Analysis.ipynb** in Jupyter Notebook or JupyterLab.
+
 4. Run the notebook cells sequentially.
 
 ---
@@ -163,4 +164,4 @@ pip install -r requirements.txt
 
 **Samiksha Chourasia**
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/samiksha020704
